@@ -12,7 +12,7 @@ dp = Dispatcher()
 
 @dp.message(Command("start"))
 async def start(message: types.Message):
-    await message.answer("Бот запущен в Docker!")
+    await message.answer("Бот запущен в Docker!!!")
 
 
 async def main():
